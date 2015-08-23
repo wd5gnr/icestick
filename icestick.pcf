@@ -65,4 +65,15 @@ set_io PMOD4 81 # PIO1_05
 ##set_io PMOD9 90 # PIO1_08
 ##set_io PMOD10 91 # PIO1_09
 
+# FTDI Port B UART
+#set_io DCDn 1
+#set_io DSRn 2
+#set_io DTRn 3
+#set_io CTSn 4
+#set_io RTSn 7
+#set_io RS232_Tx 8
+#set_io RS232_Rx 9
 
+# Config pins
+#set_io CDONE 65
+#set_io CRESET_B 66

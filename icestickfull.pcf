@@ -64,3 +64,15 @@ set_io --warn-no-port PMOD9 90 # PIO1_08
 set_io --warn-no-port PMOD10 91 # PIO1_09
 
 
+# FTDI Port B UART
+set_io --warn-no-port DCDn 1
+set_io --warn-no-port DSRn 2
+set_io --warn-no-port DTRn 3
+set_io --warn-no-port CTSn 4
+set_io --warn-no-port RTSn 7
+set_io --warn-no-port RS232_Tx 8
+set_io --warn-no-port RS232_Rx 9
+
+# Config pins
+set_io --warn-no-port CDONE 65
+set_io --warn-no-port CRESET_B 66
